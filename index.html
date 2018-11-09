@@ -13,8 +13,8 @@ body {
     width: 100%;
 }       
 canvas {
-    width: 180px;
-    height: 280px;
+    width: 444px;
+    height: 644px;
 }
     </style>
 </head>
@@ -29,7 +29,6 @@ canvas {
         a = canvas;
         b = body;
         c = canvas.getContext('2d');
-        c.scale(2, 2);
         d = document;
         requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function(f){ setTimeout(f, 1000/30); };
     </script>
