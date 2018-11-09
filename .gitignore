@@ -1,0 +1,9 @@
+node_modules
+.tscache
+closure.txt
+dist/out.min.js
+build/out.js
+build/out.js.map
+package-lock.json
+tscommand-*.txt
+.DS_Store
